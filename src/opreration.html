@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+
+        background-color: cornflowerblue;
+    }
+
+    .input-container {
+        margin: 10px auto;
+
+    }
+</style>
+
+<body>
+
+    <form method="post" action="/add" class="input-container">
+        <input id="addnum1" type="text" name="addnum1" placeholder="num1">
+        <input id="addnum2" type="text" name="addnum2" placeholder="num2">
+        <input type="submit" value="Add">
+    </form>
+    <form method="post" action="/sub" class="input-container">
+        <input id="subnum1" type="text" name="subnum1" placeholder="num1">
+        <input id="subnum2" type="text" name="subnum2" placeholder="num2">
+        <input type="submit" value="Sub">
+    </form>
+    <form method="post" action="/div" class="input-container">
+        <input id="divnum1" type="text" name="divnum1" placeholder="num1">
+        <input id="divnum2" type="text" name="divnum2" placeholder="num2">
+        <input type="submit" value="Div">
+    </form>
+    <form method="post" action="/mul" class="input-container">
+        <input id="mulnum1" type="text" name="mulnum1" placeholder="num1">
+        <input id="mulnum2" type="text" name="mulnum2" placeholder="num2">
+        <input type="submit" value="Mul">
+    </form>
+
+</body>
+
+</html>
